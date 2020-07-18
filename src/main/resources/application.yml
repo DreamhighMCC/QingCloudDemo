@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+qingyun:
+  url: https://api.qingcloud.com/iaas/?action=%s&zone=%s&time_stamp=%s&access_key_id=QYACCESSKEYIDEXAMPLE&version=1&signature_method=HmacSHA256&signature_version=1&signature=xMFvKenlbAAc0jGJ0iBHUhzh/wOBu3B8hypk+fTThFY=
+
+rest:
+  connect-timeout: 5000
+  read-timeout: 5000
+
+
+
